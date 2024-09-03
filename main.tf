@@ -22,7 +22,7 @@ variable "params" {
     { name = "roboshop.dev.catalogue.mongo", value = "true", type = "String" },
     { name = "roboshop.dev.catalogue.mongo_url", value = "mongodb://mongodb-dev.navien.site:27017/catalogue", type = "String" },
 
-    { name = "roboshop.dev.payment.cart_host", value = "cart-dev.navien,site", type = "String" },
+    { name = "roboshop.dev.payment.cart_host", value = "cart-dev.navien.site", type = "String" },
     { name = "roboshop.dev.payment.cart_port", value = "8080", type = "String" },
     { name = "roboshop.dev.payment.user_host", value = "user-dev.navien.site", type = "String" },
     { name = "roboshop.dev.payment.user_port", value = "8080", type = "String" },

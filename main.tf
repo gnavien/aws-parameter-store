@@ -3,7 +3,7 @@ resource "aws_ssm_parameter" "params" {
   name  = var.params[count.index].name
   type  = var.params[count.index].type
   value = var.params[count.index].value
-  overwrite = alltrue(alltrue(var.params[count.index]))
+  overwrite = true
 }
 # we have parameters for each component like frontend, catalgue, etc
 # we need to go to roboshop-ansible --> frontend --> files --> roboshop.conf

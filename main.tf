@@ -85,7 +85,7 @@ variable "params" {
       ##Passwords will be never part of git repos usually in organization we create them manually. Meaning whom ever have access they will be provisioning the secrets in the organization
       { name = "roboshop.dev.payment.amqp_pass", value = "roboshop123", type = "SecureString" },
       { name = "roboshop.dev.rabbitmq.amqp_pass", value = "roboshop123", type = "SecureString" },
-
+      overwrite = true,
      ]
 }
 

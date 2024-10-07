@@ -36,9 +36,11 @@ variable "params" {
 #    { name = "roboshop.dev.user.mongo", value = "true", type = "String" },
 #    { name = "roboshop.dev.user.redis_host", value = "redis-dev.navien.site", type = "String" },
 #    { name = "roboshop.dev.user.mongo_url", value = "mongodb://mongodb-dev.navien.site:27017/users", type = "String" },
+#      { name = "roboshop.dev.rabbitmq.amqp_user", value = "roboshop", type = "String" },
 #
 #    ##Passwords will be never part of git repos usually in organization we create them manually. Meaning whom ever have access they will be provisioning the secrets in the organization
 #    { name = "roboshop.dev.payment.amqp_pass", value = "roboshop123", type = "SecureString" },
+#     { name = "roboshop.dev.rabbitmq.amqp_pass", value = "roboshop123", type = "SecureString" },
 
 
 
@@ -76,10 +78,13 @@ variable "params" {
       { name = "roboshop.dev.user.mongo", value = "true", type = "String" },
       { name = "roboshop.dev.user.redis_host", value = "redis-dev.saty.fun", type = "String" },
       { name = "roboshop.dev.user.mongo_url", value = "mongodb://mongodb-dev.saty.fun:27017/users", type = "String" },
+      { name = "roboshop.dev.rabbitmq.amqp_user", value = "roboshop", type = "String" },
 
+
+      { name = "roboshop.dev.rabbitmq.amqp_host", value = "rabbitmq-dev.saty.fun", type = "String" },
       ##Passwords will be never part of git repos usually in organization we create them manually. Meaning whom ever have access they will be provisioning the secrets in the organization
       { name = "roboshop.dev.payment.amqp_pass", value = "roboshop123", type = "SecureString" },
-
+      { name = "roboshop.dev.rabbitmq.amqp_pass", value = "roboshop123", type = "SecureString" },
 
      ]
 }

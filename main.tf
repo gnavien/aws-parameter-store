@@ -3,7 +3,7 @@ resource "aws_ssm_parameter" "params" {
   name  = var.params[count.index].name
   type  = var.params[count.index].type
   value = var.params[count.index].value
-  key_id = "8c334a91-45b5-4dde-b43d-6426eb7434b9"
+  key_id = "57101957-e758-4e2a-903b-224afd6a85c0"
   overwrite = true
 }
 # we have parameters for each component like frontend, catalgue, etc

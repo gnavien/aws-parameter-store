@@ -29,8 +29,10 @@ variable "params" {
 
     { name = "roboshop.dev.payment.cart_host", value = "cart-dev.navien.site", type = "String" },
     { name = "roboshop.dev.payment.cart_port", value = "8080", type = "String" },
+
     { name = "roboshop.dev.payment.user_host", value = "user-dev.navien.site", type = "String" },
     { name = "roboshop.dev.payment.user_port", value = "8080", type = "String" },
+
     { name = "roboshop.dev.payment.amqp_host", value = "rabbitmq-dev.navien.site", type = "String" },
     { name = "roboshop.dev.payment.amqp_user", value = "roboshop", type = "String" },
 
@@ -43,6 +45,7 @@ variable "params" {
     { name = "roboshop.dev.user.mongo_url", value = "mongodb://mongodb-dev.navien.site:27017/users", type = "String" },
     { name = "roboshop.dev.rabbitmq.amqp_user", value = "roboshop", type = "String" },
     { name = "roboshop.dev.mysql.username", value = "roboshop", type = "String" },
+
     { name = "roboshop.dev.docdb.username", value = "roboshop", type = "String" },
     { name = "roboshop.dev.rabbitmq.amqp_host", value = "rabbitmq-dev.navien.site", type = "String" },
 
